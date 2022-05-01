@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.fondo{
+    background-color:hsl(0, 5%, 96%);
+}
+
+
+.divFormLogin{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.logoLogin{
+    text-align: center;
+}
+
+.formLogin{
+    display: flex;
+    text-align:justify;
+    flex-direction: column;
+}
+
+.divCrearCuenta{
+
+    padding: 2%;
+    border: 1px solid grey;
+}
+
+
+
+.field{
+    border-radius: 4px;
+    padding: 2%;
+    outline: none;
+}
+label{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.btnLogin{
+    border: none;
+    padding: 2%;
+    margin: 7% 0 3% 0;
+    width: 100%;
+    background-color: #ff9fe2;
+    border-radius: 7px;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.btnLogin:hover{
+    color: black;
+    background-color: #b4b4b4;
+    border: 1px solid #525151;
+}
+
+.pIniciar{
+    font-size:2.5em;
+}
+.btnCrearCuenta{
+    width: 30%;
+    border-radius: 7px;
+    font-size: 1.2rem;
+    margin-bottom: 5%;
+}
+
+
+.notiene{
+    font-size: 1.7rem;
+}
+
+.link{
+    text-decoration: none;
+    color: #08387f;
+}
+
+.divGoogle{
+    margin-bottom: 2%;
+}
+
+
+.iconGoogle{
+    margin-right: 5%;
+}
+
+.google-icon{
+    border: none;
+    width: 100%;
+    background-color: #b4b4b4;
+    padding: 2%;
+    border-radius: 9px;
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.google-icon:hover{
+    background-color: #dedede;
+    border: 1px solid rgb(87, 87, 87);
+}
+
+
+@media (max-width: 768px) {
+    .divFormLogin{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .btnLogin{
+        margin-top: 8%;
+        width: 90%;
+    }
+
+    .pIniciar{
+        font-size:2em;
+        text-align: center;
+    }
+
+    .google-icon{   
+        width: 90%;
+        font-size: 1.2rem;
+        padding: 4% 0;
+    }
+
+    .notiene{
+        font-size: 1.6rem;
+    }
+    
+    .logoLogin{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .logoForm{
+        width: 100%;
+        margin-top: 20%;
+    }
+
+    
+}

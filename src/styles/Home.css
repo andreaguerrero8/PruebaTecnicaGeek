@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1% 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divPedido {
+    display: flex;
+    align-items: center;
+    border: .5px solid rgb(160, 160, 160);
+    border-top: none;
+    padding: 4% 9%;
+
+}
+
+.contenedor {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.divs {
+    border: 1px solid black;
+    padding: 4% 9% 1% 9%;
+    border-bottom: 2px solid rgb(2, 99, 196);
+}
+
+p {
+    margin-bottom: 0 !important;
+}
+
+.check {
+    padding-right: 4%
+}
+
+.number {
+    width: 50%;
+    height: 100%;
+    padding: 4%;
+    font-size: 1.5rem;
+    color: rgb(0, 119, 255);
+    font-weight: bold;
+}
+
+.divInput {
+    width: 30%;
+    padding-left: 3%;;
+}
+
+input[type=checkbox] {
+    /* Doble-tamaño Checkboxes */
+    -ms-transform: scale(2);
+    /* IE */
+    -moz-transform: scale(2);
+    /* FF */
+    -webkit-transform: scale(2);
+    /* Safari y Chrome */
+    -o-transform: scale(2);
+    /* Opera */
+    padding: 10px;
+}
+
+.divPrecio{
+    width: 80%;
+    text-align: end;
+    
+}
+
+.precioText{
+    color: rgb(29, 134, 0);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.pMarca{
+    color: rgb(165, 165, 165);
+}
+
+.btnSeleccion{
+    color: rgb(0, 119, 255);
+    background-color: transparent;
+    border: none;
+}
+
+.btnDesSeleccion{
+    color: rgb(0, 119, 255);
+    background-color: transparent;
+    border: none;
+}
+.divTotal{
+    padding: 4% 9%;
+    border: .5px solid rgb(160, 160, 160);
+}
+
+.p{
+    padding: 2% 0;
+    color: grey;
+}
+
+.pTotal{
+    padding: 2% 0;
+    color: black;
+    font-weight: bold;
+}
+
+.divPTotales{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.btnComprar{
+    background-color:green !important;
+    border: none !important;
+}

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cont{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 3% 2%;
+    padding: 2%;
+}
+
+.divFormCards{
+    width: 50%;
+    margin: 0 auto;
+}

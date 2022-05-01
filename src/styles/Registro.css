@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fondo {
+    background-color: hsl(0, 5%, 96%);
+}
+
+
+.logoLogin {
+    text-align: center;
+}
+
+
+.divFormRegistro {
+    margin: 0 auto;
+    width: 40%;
+
+}
+
+.logoRegistro {
+    text-align: center;
+}
+
+
+.field {
+    margin: 2% 0;
+    border-radius: 4px;
+    background-color: #bfdfe8;
+    border: none;
+}
+
+label {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.pCrear {
+    font-size: 2.5em;
+}
+
+.yatienes {
+    font-size: 1.7rem;
+}
+
+
+.btnRegistro {
+    border: none;
+    padding: 2%;
+    margin: 3% 0;
+    width: 70%;
+    background-color: #ff9fe2;
+    border-radius: 7px;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.btnRegistro:hover {
+    color: black;
+    background-color: #b4b4b4;
+}
+
+
+
+.linkRegistro {
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .divFormRegistro {
+        margin: 0 auto;
+        width: 80%;
+
+    }
+
+    .yatienes {
+        font-size: 1.6rem;
+    }
+
+    .btnRegistro {
+        width: 80%;
+        font-size: 1.3rem;
+        margin-top: 7%;
+    }
+
+    .pCrear {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .logoRegistro {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+}

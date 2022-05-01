@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important
+}
+
+.navbar>.container-fluid {
+
+    flex-wrap: initial !important;
+    padding-left: 4% !important;
+    padding-right: 4% !important;
+}
+
+.linkDentro {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem
+}
+
+.linkDentroCar {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem
+}
+
+
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 1.5rem !important;
+        padding-left: 0.5rem;
+    }
+}
