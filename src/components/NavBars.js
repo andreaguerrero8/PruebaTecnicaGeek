@@ -36,8 +36,8 @@ const NavBars = () => {
                             style={{ maxHeight: '100px' }}
                             navbarScroll
                         >
-                            <Nav.Link><Link to="/" className="linkDentroCar">Carro Rissoto</Link></Nav.Link>
-                            <Nav.Link><Link to="/add" className="linkDentroCar">Más Ingredientes</Link></Nav.Link>
+                            <Link to="/" className="linkDentroCar">Carro Rissoto</Link>
+                            <Link to="/add" className="linkDentroCar">Más Ingredientes</Link>
                             <Nav.Link className="linkDentro" onClick={logout}>Cerrar sesion</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>

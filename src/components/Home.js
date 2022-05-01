@@ -20,7 +20,12 @@ const Home = () => {
 
   //----modal----//
   const [show, setShow] = useState(false);
-  const handleClose = () => setShow(false);
+
+  const handleClose = () => {
+    setShow(false);
+    window.location.reload();
+  }
+
   const handleShow = () => {
     if (total == 0) {
       alert('DEBES AGREGAR INGREDIENTES..')
@@ -165,7 +170,7 @@ const Home = () => {
 
           <>
             <Modal show={show} onHide={handleClose}>
-              <Modal.Header closeButton>
+              <Modal.Header>
                 <Modal.Title>Posha Shop te da las gracias por tu Compra</Modal.Title>
               </Modal.Header>
               <Modal.Body>El pedido llegará de 1 a 5 horas <br></br> Esparamos que vuelvas Pronto </Modal.Body>
